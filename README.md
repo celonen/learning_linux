@@ -1,2 +1,2 @@
 # learning_linux
-This repo is for practising linux and bash
+Exploring and learning linux and bash.
