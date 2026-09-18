@@ -1,0 +1,61 @@
+How to create a nano file, folder and save changes in github:
+
+1.Open bash in the terminal
+
+2. Locate github folder: cd Dokument/github
+
+3. Create a folder: mkdir 03_navigation
+
+4. Create a file: nano README.md
+
+5. Write workflow documentation
+
+6. Save text: CTRL + o
+
+7. Close nano file: CTRL + x
+
+8. Save changes in github: git add .
+
+9. Commit: git commit -m "workflow documentation"
+
+10. Push: git push
+
+
+
+Commands:
+
+- Create Folders/Directories: mkdir
+
+- Create new files: touch
+
+- View files and print: cat
+
+- Copy files and directoris: cp
+
+- Move files: mv
+
+- Remove files: rm
+
+- Remove folder: rmdir
+
+- See directory structure: tree
+
+- Show manual: man
+
+- Open new tab in terminal: CTRL + Shift + T
+
+
+
+Globbing:
+
+Create multiple files: touch file{1..3}.txt eller touch file{1..3}.md
+
+Create multiple folders: mkdir dir_{a,b,c}
+
+
+
+Typing text in the terminal that will be saved inside a file:
+
+1 line: echo "type text here" > filename
+
+Multiple lines: echo "type text here" >> filename
