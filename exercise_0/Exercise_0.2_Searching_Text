@@ -1,0 +1,58 @@
+
+1. Setup html2text program to get text without html tags:
+
+```bash
+sudo dnf install html2text
+```
+
+2. Download a text from this URL link https://www.gutenberg.org/cache/epub/6527/pg6527.txt,
+ use curl to save it in a file called linux.txt, 
+pipe the result into html2text, use grep to search for debian (case insensitive), 
+ and redirect the output into a new file called debian.txt:
+
+```bash
+curl -s https://www.gutenberg.org/cache/epub/6527/pg6527.txt | html2text > linux.txt | grep -i debian > debian.txt
+```
+
+3. Search for "GNU" and count the number of lines where GNU occur:
+
+```bash
+grep -n GNU linux.txt
+```
+
+4. Count the number of times the word "server" (case insensitive) appear:
+
+```bash
+grep -ci server linux.txt
+```
+
+or 
+
+```bash
+journalctl | grep -i server | wc -l
+```
+
+5. Count the number of times the line starts with the word "server" (case insensitive):
+
+```bash
+grep -in ^server linux.txt
+```
+
+6. Locate .conf files with hardware in it:
+
+```bash
+locate "*.conf" | grep hardware
+```
+
+7. Find all pdf files in the system that include the name "secret":
+
+```bash
+find / -name "*.pdf" | grep secret
+```
+
+8. Because previous commands have lots od permission denied, 
+sort out the approved results and redirect the denied results to the void:
+ 
+```bash
+find / -name "*.pdf* 2>/dev/null | grep secret
+```
