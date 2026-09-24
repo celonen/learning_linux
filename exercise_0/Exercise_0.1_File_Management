@@ -1,8 +1,12 @@
-How to create a nano file, folder and save changes in github:
+#How to create a nano file, folder and save changes in github:
 
-1.Open bash in the terminal
+##1.Open bash in the terminal
 
-2. Locate github folder: cd Dokument/github
+##2. Locate github folder: 
+
+```bash
+cd Dokument/github
+```
 
 3. Create a folder: mkdir 03_navigation
 
