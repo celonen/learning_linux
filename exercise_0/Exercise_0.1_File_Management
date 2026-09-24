@@ -4,9 +4,9 @@
 
 2. Locate github folder 
 
-```
+<pre>
 cd Dokument/github
-```
+</pre>
 
 3. Create a folder: mkdir 03_navigation
 
