@@ -14,16 +14,16 @@
 
 ## Commands:
 
-* Create Folders/Directories: mkdir
-* Create new files: touch
-* View files and print: cat
-* Copy files and directoris: cp
-* Move files: mv
-* Remove files: rm
-* Remove folder: rmdir
-* See directory structure: tree
-* Show manual: man
-* Open new tab in terminal: CTRL + Shift + T
+* Create Folders/Directories: `mkdir`
+* Create new files: `touch`
+* View files and print: `cat`
+* Copy files and directoris: `cp`
+* Move files: `mv`
+* Remove files: `rm`
+* Remove folder: `rmdir`
+* See directory structure: `tree`
+* Show manual: `man`
+* Open new tab in terminal: `CTRL + Shift + T`
 
 
 ## Globbing:
